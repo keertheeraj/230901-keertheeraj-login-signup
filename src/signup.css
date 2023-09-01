@@ -1,0 +1,63 @@
+.reg-main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .reg-image {
+    flex: 1;
+    background: url('https://www.google.com/imgres?imgurl=https%3A%2F%2Fbunkercreative.co.uk%2Fwp-content%2Fuploads%2F2022%2F10%2FJman-logo-bg.png&tbnid=KAIPVG2XBxFM0M&vet=12ahUKEwij5aa4oomBAxWQm2MGHd5mDHQQMyhLegUIARCZAg..i&imgrefurl=https%3A%2F%2Fbunkercreative.co.uk%2Fproject%2Fjman%2F&docid=UAX1JU1gSkajBM&w=3016&h=1600&q=jman%20image&ved=2ahUKEwij5aa4oomBAxWQm2MGHd5mDHQQMyhLegUIARCZAg') center/cover;
+  }
+  
+  .reg-sub-container {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right:500px;
+  }
+  
+  .registration-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .reg-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .text-danger {
+    color: red;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+  
+  .reg-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .reg-button:hover {
+    background-color: #0056b3;
+  }
+  
